@@ -38,13 +38,13 @@
                 <h1>General Information</h1>
             </div>
             <div data-role="content">
-                <h3 class="ui-bar ui-bar-a ui-corner-all">Hours</h3>
+                <h2 class="ui-bar ui-bar-a ui-corner-all">Hours</h2>
                     <div class="ui-body ui-body-a ui-corner-all">
                         <span>
                             <p>The museum is open daily from <b>9am to 5pm</b> except Thanksgiving, Christmas, and New Year's Day.</p>
                         </span>
                     </div>
-                <h3 class="ui-bar ui-bar-a ui-corner-all">Tickets and Admission</h3>
+                <h2 class="ui-bar ui-bar-a ui-corner-all">Tickets and Admission</h2>
                     <div class="ui-body ui-body-a ui-corner-all">
                         <span>
                             <table data-role="table">
@@ -82,19 +82,26 @@
                             </table>
                         </span>
                     </div>
-                <h3 class="ui-bar ui-bar-a ui-corner-all">Location</h3>
-                    <div class="ui-body ui-body-a ui-corner-all" id="mapWrapper">
+                <h2 class="ui-bar ui-bar-a ui-corner-all">Location</h2>
+                    <div class="ui-body ui-body-a ui-corner-all">
                         <span>
-                          
+                            <div id="location">
+                                <div><p>
+                                    <a href="https://www.google.com/maps/place/1801+Mountain+Rd+NW/@35.09816,-106.6658269,17z/data=!3m1!4b1!4m2!3m1!1s0x87220cd2b519870f:0x4334b994fbfcefb5"><img id="mapicon" src="img/info_map.jpg" /></a>
+                                    <span style="margin: 20px;">
+                                        <p>The Museum is located at <a href="https://www.google.com/maps/place/1801+Mountain+Rd+NW/@35.09816,-106.6658269,17z/data=!3m1!4b1!4m2!3m1!1s0x87220cd2b519870f:0x4334b994fbfcefb5">1801 Mountain Road NW in Albuquerque, New Mexico.</a><hr />
+    From Interstate 40, take Rio Grande Boulevard south about half a mile to Mountain Road, then east on Mountain Road less than a half a mile to the Museum, turning north on 18th street to the parking lot. The Museum entrance is on 18th Street.</p></p>
+                                    </span>
+                                </div>
                         </span>
                     </div>
             </div>
             <div data-role="footer" data-position="fixed" data-tap-toggle="false">
                 <div data-role="navbar" data-iconpos="top">
                     <ul>
-                        <li><a href="info.html" data-icon="bars" data-transition="none">Info</a></li>
+                        <li><a href="#" data-icon="bars" data-transition="none" class="ui-btn-active">Info</a></li>
                         <li><a href="events.html" data-icon="calendar" data-transition="none">Events</a></li>
-                        <li><a href="#" data-icon="video" class="ui-btn-active">Media</a></li>
+                        <li><a href="media.html" data-icon="video" data-transition="none">Media</a></li>
                         <li><a href="exhibits.html" data-icon="star" data-transition="none">Exhibits</a></li>
                     </ul>
                 </div>

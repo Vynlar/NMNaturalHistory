@@ -28,3 +28,7 @@
     display: inline-block;
     opacity: 0;
 }
+
+#mapicon {
+    width: 100%;
+}
