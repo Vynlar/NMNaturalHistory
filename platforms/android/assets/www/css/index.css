@@ -1,0 +1,30 @@
+#home {
+    background: url(../img/home_background.jpg) !important;
+    background-attachment:fixed;
+	background-size:cover;
+}
+
+.ui-page, .ui-content, .ui-btn {
+	background: transparent;
+}
+
+.ui-content {
+    padding: 0px;   
+}
+
+#header {
+    background-color: rgba(0,0,0,0.4);
+    padding: 10px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    margin: 0px;
+    font-family: sans-serif;
+    color: white;
+    font-size: 2m;
+    top: auto;
+    bottom: 23%;
+    position: absolute;
+    line-height: 40%;
+    display: inline-block;
+    opacity: 0;
+}
