@@ -5,6 +5,8 @@ var $datURL = "http://scripts.enx3s.com/hstry/events.json/index.php";
 //Hide listview while working
 $$.hide();
 
+console.log("Starting");
+
 //Load JSON file
 $.getJSON($datURL, function(data) {
     $.each(data, function(i, event) {
@@ -20,6 +22,7 @@ $.getJSON($datURL, function(data) {
         $a.appendTo($e);
         //Append to event list
         $e.appendTo($$);
+        console.log($e);
     });
 }).done(function() {
     //Refresh CSS for listview

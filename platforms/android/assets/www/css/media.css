@@ -1,0 +1,10 @@
+#imgTable {
+    table-layout:fixed;
+    width: 100%;   
+}
+
+.tableImages {
+    width: 30%;
+    padding: 1%;
+    margin: 0px;
+}

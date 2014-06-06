@@ -1,7 +1,7 @@
 #home {
     background: url(../img/home_background.jpg) !important;
     background-attachment:fixed;
-	background-size:cover;
+	background-size:100% 100%;
 }
 
 .ui-page, .ui-content, .ui-btn {
@@ -27,8 +27,4 @@
     line-height: 40%;
     display: inline-block;
     opacity: 0;
-}
-
-#mapicon {
-    width: 100%;
 }

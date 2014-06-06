@@ -31,14 +31,20 @@
     </head>
     <body>
         <div id="media" data-role="page">
-            <div data-role="header" data-add-back-btn="true" data-prefetch="true">
-                <h1>Media</h1>
+            <div data-role="header">
+                <h1>Event Calendar</h1>
             </div>
             <div data-role="content">
-                <h3 class="ui-bar ui-bar-a ui-corner-all">Heading</h3>
+                <h3 class="ui-bar ui-bar-a ui-corner-all">Events</h3>
                     <div class="ui-body ui-body-a ui-corner-all">
+                        <!-- START CALENDAR -->
+                        <span>
+                            <ul data-role="listview" data-inset="true" class="histCal">
+                                <!-- CALENDAR GENERATED HERE -->
+                            </ul>
+                        </span>
+                        <!-- END CALENDAR -->
                     </div>
-                </div>
             </div>
             <div data-role="footer" data-position="fixed" data-tap-toggle="false">
                 <div data-role="navbar" data-iconpos="top">
@@ -50,6 +56,7 @@
                     </ul>
                 </div>
             </div>
+            <script type="text/javascript" src="js/events.js"></script>
         </div>
         <script type="text/javascript" src="phonegap.js"></script>
         <script type="text/javascript">
