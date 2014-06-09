@@ -30,7 +30,7 @@
         <title>Hello World</title>
     </head>
     <body>
-        <div id="media" data-role="page">
+        <div id="other" data-role="page">
             <div data-role="header">
                 <h1>Other Permanent Exhibits</h1>
             </div>
@@ -38,66 +38,10 @@
                 <h3 class="ui-bar ui-bar-a ui-corner-all">Other Permanent Exhibits</h3>
                     <div class="ui-body ui-body-a ui-corner-all">
                             <!-- Exhibits -->
-                            <ul data-role="listview" data-inset="true">
-                                <li>
-                                    <a href="#">
-                                        <img src="../img/exhibits/entrancedino_thumb.jpg">
-                                        <h2>Entrance Dinosaurs</h2>
-                                        <p>Visitors to the Museum are welcomed by two life-size New Mexico dinosaurs that were cast in bronze by Albuquerque sculptor Dave Thomas.</p>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="#">
-                                        <img src="../img/exhibits/naturalist_center_thumb.jpg">
-                                        <h2>Naturalist Center</h2>
-                                        <p>The Naturalist Center is the hands-on educational room in the museum for "children" of all ages.</p>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="#">
-                                        <img src="../img/exhibits/fossilworks_thumb.jpg">
-                                        <h2>FossilWorks</h2>
-                                        <p>FossilWorks is a public display area in which trained volunteers demonstrate the painstaking process of paleontological preparation.</p>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="#">
-                                        <img src="../img/exhibits/hots_thumb.jpg">
-                                        <h2>The Hall of the Stars</h2>
-                                        <p>Explore your night sky!</p>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="#">
-                                        <img src="../img/exhibits/stan_thumb.jpg">
-                                        <h2>T-Rex Attack</h2>
-                                        <p>Visitors to the Museum find themselves face to face with Tyrannosaurus rex in full attack mode, as they round the corner into the Museum Atrium.</p>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="#">
-                                        <img src="../img/exhibits/bistibeast_thumb.jpg">
-                                        <h2>The Bisti Beast</h2>
-                                        <p>New Mexico's newest tyrannosaur is on exhibit in our New Mexico's Seacoast Hall.</p>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="#">
-                                        <img src="../img/exhibits/startup.jpg">
-                                        <h2>STARTUP</h2>
-                                        <p>STARTUP is the first museum exhibition dedicated to the microcomputer - the little machine that revolutionized the way we live, work and play.</p>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="#">
-                                        <img src="../img/exhibits/thumb_Emergence.png">
-                                        <h2>Emergence: A New View of Life's Origins</h2>
-                                        <p>How and why did life on Earth emerge? New research taking place around the globe-including here in New Mexico-suggests we are close to answering this question.</p>
-                                    </a>
-                                </li>
+                            <ul data-role="listview" data-inset="true" id="other-list">
+                                
                             </ul>
                     </div>
-                </div>
             </div>
             <div data-role="footer" data-position="fixed" data-tap-toggle="false">
                 <div data-role="navbar" data-iconpos="top">
@@ -109,6 +53,7 @@
                     </ul>
                 </div>
             </div>
+            <script type="text/javascript">generateExhibitList(timetracks, "#other-list");</script>
         </div>
         <script type="text/javascript" src="../phonegap.js"></script>
         <script type="text/javascript">
