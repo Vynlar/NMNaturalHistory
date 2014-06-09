@@ -1,4 +1,4 @@
-function genImgTable () {
+function genImgTable() {
     var numImgs = 11;
     var currentImg = 0;
     var currentRow = 0;
@@ -24,9 +24,8 @@ function genImgTable () {
         $("#" + name).append("<a href='img/mediaImgs/"+ currentImg +".jpg' data-gallery><img class='tableImages' src='img/mediaImgs/"+ currentImg + ".jpg'/></a>");
         currentImg++;
     }
-           
 }
 
-$('#media').on('pageinit', function(event) {
+$('#media').on('pageshow', function(event) {
     genImgTable();
 });

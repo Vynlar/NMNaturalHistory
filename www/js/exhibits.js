@@ -1,4 +1,3 @@
-
 var timetracks = [["Origins", "../img/exhibits/Timetracks01_OriginsCell_th.jpg", "12 billion to 251 million years ago: From the beginning of the universe through the Paleozoic Era",
                    "http://www.nmnaturalhistory.org/origins.html"],
                   ["Dawn of the Dinosaurs", "../img/exhibits/triassic_thumb.jpg", "The Triassic Period, 251 million to 202 million years ago", "http://www.nmnaturalhistory.org/triassic.html"],
@@ -19,12 +18,11 @@ var other = [
     ["The Bisti Beast", "../img/exhibits/bistibeast_thumb.jpg", "New Mexico's newest tyrannosaur is on exhibit in our New Mexico's Seacoast Hall.", "http://www.nmnaturalhistory.org/the-bisti-beast1.html"],
     ["STARTUP", "../img/exhibits/startup.jpg", "STARTUP is the first museum exhibition dedicated to the microcomputer - the little machine that revolutionized the way we live, work and play.", "http://www.nmnaturalhistory.org/startup-albuquerque-and-the-personal-computer-revolution.html"],
     ["Emergence: A New View of Life's Origins", "../img/exhibits/thumb_Emergence.png", "How and why did life on Earth emerge? New research taking place around the globe-including here in New Mexico-suggests we are close to answering this question.", "http://www.nmnaturalhistory.org/emergence-a-new-view-of-lifes-origins.html"]];
-           
 
 $('#timetracks').on('pageshow', function(event) {
     generateExhibitList(timetracks, "#timetrack-list");
 });
 
 $('#other').on('pageshow', function(event) {
-    generateExhibitList(timetracks, "#other-list");
+    generateExhibitList(other, "#other-list");
 });
