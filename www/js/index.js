@@ -55,7 +55,7 @@ function loadHeader()
     });   
 }
 
-$(function() {
+/*$(function() {
     $("[data-role='navbar']" ).navbar();
     $("[data-role='header'], [data-role='footer']").toolbar();
 });
@@ -65,9 +65,15 @@ $( document ).on("pageshow", "[data-role='page']", function() {
     $("[data-role='navbar'] a.ui-btn-active").removeClass("ui-btn-active");
     $("[data-role='navbar'] a").each(function() {
         if ( $( this ).text() === current ) {
-            $( this ).addClass( "ui-btn-active" );
+            $( this ).addClass( "ui-btn-active ui-state-persist" );
         }
     }
+<<<<<<< HEAD
 });
     
+=======
+    loadHeader();
+});*/
+
+>>>>>>> 751eaf50ae23b7f26f2102adc8c26a8dc14a1872
 loadHeader();

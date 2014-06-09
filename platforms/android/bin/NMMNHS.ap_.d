@@ -257,6 +257,7 @@ c:\Users\Adrian\Documents\Programming\history\platforms\android\assets\www\img\e
 c:\Users\Adrian\Documents\Programming\history\platforms\android\assets\www\img\home_background.jpg \
 c:\Users\Adrian\Documents\Programming\history\platforms\android\assets\www\img\info_map.jpg \
 c:\Users\Adrian\Documents\Programming\history\platforms\android\assets\www\img\info_mapicon.png \
+c:\Users\Adrian\Documents\Programming\history\platforms\android\assets\www\img\loader.gif \
 c:\Users\Adrian\Documents\Programming\history\platforms\android\assets\www\img\loading.gif \
 c:\Users\Adrian\Documents\Programming\history\platforms\android\assets\www\img\logo.png \
 c:\Users\Adrian\Documents\Programming\history\platforms\android\assets\www\img\mediaImgs \
