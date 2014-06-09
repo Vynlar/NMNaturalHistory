@@ -249,6 +249,7 @@ c:\Users\Adrian\Documents\Programming\history\platforms\android\assets\www\css\i
 c:\Users\Adrian\Documents\Programming\history\platforms\android\assets\www\css\images\icons-svg\video-black.svg \
 c:\Users\Adrian\Documents\Programming\history\platforms\android\assets\www\css\images\icons-svg\video-white.svg \
 c:\Users\Adrian\Documents\Programming\history\platforms\android\assets\www\exhibit\other.html \
+c:\Users\Adrian\Documents\Programming\history\platforms\android\assets\www\exhibit\temporary.html \
 c:\Users\Adrian\Documents\Programming\history\platforms\android\assets\www\exhibit\timetracks.html \
 c:\Users\Adrian\Documents\Programming\history\platforms\android\assets\www\img\error.png \
 c:\Users\Adrian\Documents\Programming\history\platforms\android\assets\www\img\error.svg \
@@ -310,6 +311,7 @@ c:\Users\Adrian\Documents\Programming\history\platforms\android\assets\www\js\jq
 c:\Users\Adrian\Documents\Programming\history\platforms\android\assets\www\js\list-load.js \
 c:\Users\Adrian\Documents\Programming\history\platforms\android\assets\www\js\map.js \
 c:\Users\Adrian\Documents\Programming\history\platforms\android\assets\www\js\media.js \
+c:\Users\Adrian\Documents\Programming\history\platforms\android\assets\www\js\temporary.js \
 c:\Users\Adrian\Documents\Programming\history\platforms\android\assets\www\plugins\org.jshybugger.cordova \
 c:\Users\Adrian\Documents\Programming\history\platforms\android\assets\www\plugins\org.jshybugger.cordova\www \
 c:\Users\Adrian\Documents\Programming\history\platforms\android\assets\www\plugins\org.jshybugger.cordova\www\jsHybuggerLoader.js \

@@ -8,5 +8,7 @@ var timetracks = [["Origins", "../img/exhibits/Timetracks01_OriginsCell_th.jpg",
                    "http://www.nmnaturalhistory.org/grasslands.html"],
                   ["The Cave", "../img/exhibits/Timetracks_07C_th.jpg", "Pliocene and Pleistocene Epochs, 4 million to 10,000 years ago", "http://www.nmnaturalhistory.org/cave.html"],
                   ["New Mexico's Ice Age", "../img/exhibits/pleistocene_thumb.jpg", "Pleistocene, 1.6 million to 10,000 years ago", "http://www.nmnaturalhistory.org/pleistocene.html"]];
-           
-generateExhibitList(timetracks, "#timetrack-list");
+
+$('#media').on('pageinit', function(event) {
+    generateExhibitList(timetracks, "#timetrack-list");
+});
