@@ -56,9 +56,8 @@ function loadHeader()
 }
 
 $(function() {
-    $( "[data-role='navbar']" ).navbar();
+    $("[data-role='navbar']" ).navbar();
     $("[data-role='header'], [data-role='footer']").toolbar();
-
 });
 
 $( document ).on("pageshow", "[data-role='page']", function() {
