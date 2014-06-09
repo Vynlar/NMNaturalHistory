@@ -50,7 +50,7 @@ var app = {
 
 function loadHeader()
 {
-    $(document).ready(function() {
+    $(document).on("pageshow", function() {
         $("#header").animate({opacity: "1"}, 1500);
     });   
 }
@@ -68,5 +68,6 @@ $( document ).on("pageshow", "[data-role='page']", function() {
             $( this ).addClass( "ui-btn-active" );
         }
     }
-    loadHeader();
 });
+    
+loadHeader();
