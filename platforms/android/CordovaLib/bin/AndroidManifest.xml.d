@@ -1,2 +1,2 @@
-C:\Users\Adrian\Documents\Programming\history\platforms\android\CordovaLib\bin\AndroidManifest.xml : \
-C:\Users\Adrian\Documents\Programming\history\platforms\android\CordovaLib\AndroidManifest.xml \
+C:\Users\kolya\GIT\NMNaturalHistory\platforms\android\CordovaLib\bin\AndroidManifest.xml : \
+C:\Users\kolya\GIT\NMNaturalHistory\platforms\android\CordovaLib\AndroidManifest.xml \

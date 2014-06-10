@@ -1,2 +1,2 @@
-c:\Users\Adrian\Documents\Programming\history\platforms\android\bin\AndroidManifest.xml : \
-c:\Users\Adrian\Documents\Programming\history\platforms\android\AndroidManifest.xml \
+c:\Users\kolya\GIT\NMNaturalHistory\platforms\android\bin\AndroidManifest.xml : \
+c:\Users\kolya\GIT\NMNaturalHistory\platforms\android\AndroidManifest.xml \
