@@ -21,7 +21,7 @@ function loadEvents() {
             //Append to event list
             listElement.appendTo("#eventList");
             $("#eventList").listview("refresh");
-            
+            //Hide loader
             $("#loader").css("display", "none");
         });
     }); 

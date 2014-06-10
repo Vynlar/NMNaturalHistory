@@ -21,7 +21,8 @@ function genImgTable() {
         }
         
         var name = "row-" + currentRow;
-        $("#" + name).append("<a href='img/mediaImgs/"+ currentImg +".jpg' data-gallery><img class='tableImages' src='img/mediaImgs/"+ currentImg + ".jpg'/></a>");
+        var img = "<a href='img/mediaImgs/"+ currentImg +".jpg' data-gallery><img class='tableImages' src='img/mediaImgs/"+ currentImg + ".jpg'/></a>";
+        $("#" + name).append(img);
         currentImg++;
     }
 }
