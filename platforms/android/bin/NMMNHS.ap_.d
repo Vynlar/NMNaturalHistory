@@ -281,6 +281,7 @@ c:\Users\kolya\GIT\NMNaturalHistory\platforms\android\assets\www\img\exhibits\Ti
 c:\Users\kolya\GIT\NMNaturalHistory\platforms\android\assets\www\img\exhibits\Timetracks_06EG2.jpg \
 c:\Users\kolya\GIT\NMNaturalHistory\platforms\android\assets\www\img\exhibits\Timetracks_07C_th.jpg \
 c:\Users\kolya\GIT\NMNaturalHistory\platforms\android\assets\www\img\exhibits\timetracks_thumb.jpg \
+c:\Users\kolya\GIT\NMNaturalHistory\platforms\android\assets\www\img\exhibits\traveling_thumb.jpg \
 c:\Users\kolya\GIT\NMNaturalHistory\platforms\android\assets\www\img\exhibits\triassic_thumb.jpg \
 c:\Users\kolya\GIT\NMNaturalHistory\platforms\android\assets\www\img\mediaImgs\0.jpg \
 c:\Users\kolya\GIT\NMNaturalHistory\platforms\android\assets\www\img\mediaImgs\1.jpg \

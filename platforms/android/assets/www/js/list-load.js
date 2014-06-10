@@ -1,4 +1,4 @@
-function generateExhibitList(data, id)
+function generateExhibitList(data, id, isTemp)
 {
     $.each(data, function(i, _data) {
         var tag = $("<li></li>");
@@ -15,10 +15,31 @@ function generateExhibitList(data, id)
         var divId = _data[0].replace(/ /g, "-");
         popup.attr("id", divId);
         $("<p></p>").html(_data[2]).appendTo(popup);
-        linkTag.attr("href", _data[3]);
+        linkTag.attr("href", "#");
         linkTag.appendTo(tag);
         tag.append(popup);
+        if(!isTemp) {
+            tag.click(function() {
+                showPopup(_data[3]); 
+            });
+        } else {
+            tag.click(function() {
+                showPopupLink(_data[3]); 
+            });   
+        }
         tag.appendTo(id);
     });
     $(id).listview("refresh");
+}
+
+function showPopup(data) {
+    $("#exhibitText").html("<p>" + data + "</p>");
+    $("#exhibitPopup").popup("open");
+}
+
+function showPopupLink(link) {
+    $.get("http://scripts.enx3s.com/hstry/getData.php?file=" + link, function(data) {
+        $("#exhibitText").html("<p>" + data + "</p>");
+        $("#exhibitPopup").popup("open"); 
+    });   
 }

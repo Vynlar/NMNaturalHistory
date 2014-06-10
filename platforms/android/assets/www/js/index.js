@@ -16,6 +16,10 @@
  * specific language governing permissions and limitations
  * under the License.
  */
+
+var eventData = null;
+var eventHTML = $("<ul></ul>");
+
 var app = {
     // Application Constructor
     initialize: function() {
@@ -48,11 +52,6 @@ var app = {
     }
 };
 
-function loadHeader()
-{
-    $(document).on("pageshow", function() {
-        $("#header").animate({opacity: "1"}, 1500);
-    });   
-}
-
-loadHeader();
+$(document).on("pageshow", function() {
+    $("#header").animate({opacity: "1"}, 1500);
+});

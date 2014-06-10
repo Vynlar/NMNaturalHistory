@@ -23,7 +23,7 @@ $.getJSON($datURL, function(data) {
         //Append to exhibit list
         $e.appendTo($$);
     }); */
-    generateExhibitList(data, "#exhibits");
+    generateExhibitList(data, "#exhibits", true);
 }).done(function() {
     //Refresh CSS for listview
     $$.listview("refresh");

@@ -1,7 +1,3 @@
-var loaded = false;
-var eventData;
-var eventHTML = "";
-
 var $datURL = "http://scripts.enx3s.com/hstry/events.json/index.php";
 
 function formatEventData (data) {
@@ -18,12 +14,18 @@ function formatEventData (data) {
             $("<p></p>").attr("class", "ui-li-aside").html("<strong>" + event.time.start + "</strong>").appendTo(linkTag);
             linkTag.appendTo(listElement);
             //Append to event list
-            listElement.appendTo(eventHTML);
-            listElement.appendTo("#eventList");
-            $("#eventList").listview("refresh");
-            //Hide loader
-            $("#loader").css("display", "none");
+            eventHTML.append(listElement);
         });
+    console.log(eventHTML);
+}
+
+function displayEventData() {
+    eventHTML.attr("data-role", "listview");
+    eventHTML.attr("data-inset", "true");
+    eventHTML.attr("id", "eventListview");
+    eventHTML.appendTo("#eventContentBox");
+    $("#eventListview").listview();
+    $("#loader").css("display", "none");
 }
 
 function loadEventData () {
@@ -31,20 +33,16 @@ function loadEventData () {
         eventData = data;
     }).done(function() {
         formatEventData(eventData);
-        loaded = true;
+        displayEventData();
     });
 }
 
 $('#events').on('pageshow', function(event) {
-    if (loaded == true) {
-        formatEventData(eventData);
-    }
-    console.log("page show called");
-});
-
-$('#events').on('pagecreate', function(event) {
-    if (loaded == false) {
+    if (eventData == null) {
         loadEventData();
+        console.log("eventdata null");
+    } else {
+        displayEventData(eventHTML);
+        console.log("event data already loaded");
     }
-    console.log("page create called");
 });
