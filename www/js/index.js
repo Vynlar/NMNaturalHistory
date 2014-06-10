@@ -75,5 +75,4 @@ $( document ).on("pageshow", "[data-role='page']", function() {
     loadHeader();
 });*/
 
->>>>>>> 751eaf50ae23b7f26f2102adc8c26a8dc14a1872
 loadHeader();

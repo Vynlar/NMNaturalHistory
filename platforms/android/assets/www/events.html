@@ -26,6 +26,7 @@
         <!--  rel="stylesheet" type="text/css" href="css/index.css" /> -->
         <script type="text/javascript" src="js/jquery-1.11.1.min.js"></script>
         <script type="text/javascript" src="js/jquery.mobile-1.4.2.min.js"></script>
+
         <link rel="stylesheet" type="text/css" href="css/jquery.mobile-1.4.2.min.css" />
         <title>Hello World</title>
     </head>
@@ -38,11 +39,11 @@
                 <h3 class="ui-bar ui-bar-a ui-corner-all">Events</h3>
                     <div class="ui-body ui-body-a ui-corner-all">
                         <!-- START CALENDAR -->
-                        <span>
-                            <ul data-role="listview" data-inset="true" class="histCal">
+                        <div class="ui-body ui-body-a ui-corner-all">
+                            <ul data-role="listview" data-inset="true" id="eventList">
                                 <!-- CALENDAR GENERATED HERE -->
                             </ul>
-                        </span>
+                        </div>
                         <!-- END CALENDAR -->
                         <div id="loader">
                             <img src="img/loader.gif"></img>
