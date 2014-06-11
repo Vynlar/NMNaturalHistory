@@ -41,5 +41,5 @@ function showPopupLink(link) {
     $.get("http://scripts.enx3s.com/hstry/getData.php?file=" + link, function(data) {
         $("#exhibitText").html("<p>" + data + "</p>");
         $("#exhibitPopup").popup("open"); 
-    });   
+    });
 }
