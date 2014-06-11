@@ -251,6 +251,7 @@ c:\Users\Adrian\Documents\Programming\history\platforms\android\assets\www\css\i
 c:\Users\Adrian\Documents\Programming\history\platforms\android\assets\www\exhibit\other.html \
 c:\Users\Adrian\Documents\Programming\history\platforms\android\assets\www\exhibit\temporary.html \
 c:\Users\Adrian\Documents\Programming\history\platforms\android\assets\www\exhibit\timetracks.html \
+c:\Users\Adrian\Documents\Programming\history\platforms\android\assets\www\img\backgrounds \
 c:\Users\Adrian\Documents\Programming\history\platforms\android\assets\www\img\error.png \
 c:\Users\Adrian\Documents\Programming\history\platforms\android\assets\www\img\error.svg \
 c:\Users\Adrian\Documents\Programming\history\platforms\android\assets\www\img\exhibits \
@@ -265,6 +266,14 @@ c:\Users\Adrian\Documents\Programming\history\platforms\android\assets\www\img\p
 c:\Users\Adrian\Documents\Programming\history\platforms\android\assets\www\img\play-pause.svg \
 c:\Users\Adrian\Documents\Programming\history\platforms\android\assets\www\img\video-play.png \
 c:\Users\Adrian\Documents\Programming\history\platforms\android\assets\www\img\video-play.svg \
+c:\Users\Adrian\Documents\Programming\history\platforms\android\assets\www\img\backgrounds\0.jpg \
+c:\Users\Adrian\Documents\Programming\history\platforms\android\assets\www\img\backgrounds\1.jpg \
+c:\Users\Adrian\Documents\Programming\history\platforms\android\assets\www\img\backgrounds\2.jpg \
+c:\Users\Adrian\Documents\Programming\history\platforms\android\assets\www\img\backgrounds\3.jpg \
+c:\Users\Adrian\Documents\Programming\history\platforms\android\assets\www\img\backgrounds\4.jpg \
+c:\Users\Adrian\Documents\Programming\history\platforms\android\assets\www\img\backgrounds\5.jpg \
+c:\Users\Adrian\Documents\Programming\history\platforms\android\assets\www\img\backgrounds\6.jpg \
+c:\Users\Adrian\Documents\Programming\history\platforms\android\assets\www\img\backgrounds\7.jpg \
 c:\Users\Adrian\Documents\Programming\history\platforms\android\assets\www\img\exhibits\bistibeast_thumb.jpg \
 c:\Users\Adrian\Documents\Programming\history\platforms\android\assets\www\img\exhibits\cretaceous_thumb.jpg \
 c:\Users\Adrian\Documents\Programming\history\platforms\android\assets\www\img\exhibits\entrancedino_thumb.jpg \
@@ -281,6 +290,7 @@ c:\Users\Adrian\Documents\Programming\history\platforms\android\assets\www\img\e
 c:\Users\Adrian\Documents\Programming\history\platforms\android\assets\www\img\exhibits\Timetracks_06EG2.jpg \
 c:\Users\Adrian\Documents\Programming\history\platforms\android\assets\www\img\exhibits\Timetracks_07C_th.jpg \
 c:\Users\Adrian\Documents\Programming\history\platforms\android\assets\www\img\exhibits\timetracks_thumb.jpg \
+c:\Users\Adrian\Documents\Programming\history\platforms\android\assets\www\img\exhibits\traveling_thumb.jpg \
 c:\Users\Adrian\Documents\Programming\history\platforms\android\assets\www\img\exhibits\triassic_thumb.jpg \
 c:\Users\Adrian\Documents\Programming\history\platforms\android\assets\www\img\mediaImgs\0.jpg \
 c:\Users\Adrian\Documents\Programming\history\platforms\android\assets\www\img\mediaImgs\1.jpg \

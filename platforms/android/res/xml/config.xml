@@ -10,11 +10,6 @@
     <feature name="App">
         <param name="android-package" value="org.apache.cordova.App" />
     </feature>
-    <preference name="loadUrlTimeoutValue" value="180000" />
-    <feature name="jsHybugger">
-        <param name="android-package" value="org.jshybugger.cordova.JsHybuggerPlugin" />
-        <param name="onload" value="true" />
-    </feature>
     <name>NMMNHS</name>
     <description>
         Hello World sample application that responds to the deviceready event.
@@ -26,7 +21,7 @@
     <preference name="permissions" value="none" />
     <preference name="orientation" value="portrait" />
     <preference name="target-device" value="universal" />
-    <preference name="fullscreen" value="true" />
+    <preference name="fullscreen" value="false" />
     <preference name="webviewbounce" value="true" />
     <preference name="prerendered-icon" value="true" />
     <preference name="stay-in-webview" value="false" />
