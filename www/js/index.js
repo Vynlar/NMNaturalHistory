@@ -52,6 +52,11 @@ var app = {
     }
 };
 
+/* $(document).on("pagecreate", function() {
+    var id = 1;
+    $("body").css("background", "url(../img/backgrounds/" + id + ".jpg)");
+}); */
+
 $(document).on("pageshow", function() {
     $("#header").animate({opacity: "1"}, 1500);
 });
