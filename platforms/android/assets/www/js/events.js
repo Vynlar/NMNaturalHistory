@@ -8,7 +8,7 @@ function loadEvents() {
         $.each(data, function(i, event) {
             
             //Create date title
-            var tag = $("<li></li>");
+            var listElement = $("<li></li>");
             var linkTag = $("<a></a>");
             linkTag.append($("<p></p>").html(event.date.str));
             //Add link
@@ -17,9 +17,9 @@ function loadEvents() {
             $("<h2></h2>").html(event.title).appendTo(linkTag);
             //Time
             $("<p></p>").attr("class", "ui-li-aside").html("<strong>" + event.time.start + "</strong>").appendTo(linkTag);
-            linkTag.appendTo(tag);
+            linkTag.appendTo(listElement);
             //Append to event list
-            tag.appendTo("#eventList");
+            listElement.appendTo("#eventList");
             $("#eventList").listview("refresh");
             
             $("#loader").css("display", "none");
