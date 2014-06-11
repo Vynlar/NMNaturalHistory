@@ -8,7 +8,7 @@ function formatEventData (data) {
         linkTag.append($("<p></p>").html(event.date.str));
         //Add link
         //linkTag.attr("href", event.link);
-        linkTag.attr("onclick", "var ref = window.open('" + event.link + "', '_blank', 'location=yes');");
+        linkTag.attr("onclick", "");
         //Event title
         $("<h2></h2>").html(event.title).appendTo(linkTag);
         //Time

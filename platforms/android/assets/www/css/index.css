@@ -33,3 +33,7 @@
     text-align: center;
     display:block;
 }
+
+#exhibitPopup {
+    max-height:85%;
+}

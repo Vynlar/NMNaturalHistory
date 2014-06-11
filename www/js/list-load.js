@@ -34,12 +34,14 @@ function generateExhibitList(data, id, isTemp)
 
 function showPopup(data) {
     $("#exhibitText").html("<p>" + data + "</p>");
+    $("#exhibitPopup").css('overflow-y', 'scroll'); 
     $("#exhibitPopup").popup("open");
 }
 
 function showPopupLink(link) {
     $.get("http://scripts.enx3s.com/hstry/getData.php?file=" + link, function(data) {
         $("#exhibitText").html("<p>" + data + "</p>");
+        $("#exhibitPopup").css('overflow-y', 'scroll'); 
         $("#exhibitPopup").popup("open"); 
     });
 }
