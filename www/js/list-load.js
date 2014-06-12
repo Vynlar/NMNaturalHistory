@@ -9,7 +9,7 @@ function generateExhibitList(data, id, isTemp)
         $("<p></p>").html(_data[2]).appendTo(linkTag);
         var popup = $("<div></div>");
         popup.attr("data-role", "dialog");
-        popup.attr("data-add-back-button", "true");
+        //popup.attr("data-add-back-button", "true");
         linkTag.attr("data-transition", "pop");
         linkTag.attr("data-split-icon", "grid");
         var divId = _data[0].replace(/ /g, "-");

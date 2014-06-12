@@ -52,11 +52,8 @@ var app = {
     }
 };
 
-/* $(document).on("pagecreate", function() {
-    var id = 1;
-    $("body").css("background", "url(../img/backgrounds/" + id + ".jpg)");
-}); */
-
 $(document).on("pageshow", function() {
     $("#header").animate({opacity: "1"}, 1500);
+    var id = Math.floor(Math.random() * 8);
+    $("#home").attr("style", "background: url(img/backgrounds/"+ id +".jpg); background-size: cover; background-repeat: no-repeat;");
 });

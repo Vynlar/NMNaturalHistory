@@ -1,5 +1,5 @@
 function genImgTable() {
-    var numImgs = 11;
+    var numImgs = 40;
     var currentImg = 0;
     var currentRow = 0;
     

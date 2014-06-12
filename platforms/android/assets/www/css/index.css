@@ -1,7 +1,7 @@
 #home {
-    background: url(../img/backgrounds/0.jpg) !important;
     background-attachment:fixed;
-	background-size:100% 100%;
+	background-size:cover;
+    background-repeat: no-repeat;
 }
 
 .ui-page, .ui-content, .ui-btn {
