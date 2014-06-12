@@ -37,6 +37,7 @@ c:\Users\Adrian\Documents\Programming\history\platforms\android\assets\www\css\b
 c:\Users\Adrian\Documents\Programming\history\platforms\android\assets\www\css\demo.css \
 c:\Users\Adrian\Documents\Programming\history\platforms\android\assets\www\css\images \
 c:\Users\Adrian\Documents\Programming\history\platforms\android\assets\www\css\index.css \
+c:\Users\Adrian\Documents\Programming\history\platforms\android\assets\www\css\info.css \
 c:\Users\Adrian\Documents\Programming\history\platforms\android\assets\www\css\jquery.mobile-1.4.2.min.css \
 c:\Users\Adrian\Documents\Programming\history\platforms\android\assets\www\css\jquery.mobile.external-png-1.4.2.min.css \
 c:\Users\Adrian\Documents\Programming\history\platforms\android\assets\www\css\jquery.mobile.icons-1.4.2.min.css \
@@ -318,6 +319,7 @@ c:\Users\Adrian\Documents\Programming\history\platforms\android\assets\www\js\in
 c:\Users\Adrian\Documents\Programming\history\platforms\android\assets\www\js\jquery-1.11.1.min.js \
 c:\Users\Adrian\Documents\Programming\history\platforms\android\assets\www\js\jquery.blueimp-gallery.js \
 c:\Users\Adrian\Documents\Programming\history\platforms\android\assets\www\js\jquery.blueimp-gallery.min.js \
+c:\Users\Adrian\Documents\Programming\history\platforms\android\assets\www\js\jquery.disablescroll.min.js \
 c:\Users\Adrian\Documents\Programming\history\platforms\android\assets\www\js\jquery.mobile-1.4.2.min.js \
 c:\Users\Adrian\Documents\Programming\history\platforms\android\assets\www\js\list-load.js \
 c:\Users\Adrian\Documents\Programming\history\platforms\android\assets\www\js\map.js \
